@@ -2,21 +2,31 @@
     "name": "markdown-preview-bitbucket-innersource",
     "displayName": "Markdown Preview with Bitbucket Innersource Styles",
     "description": "Replaces the Markdown preview with Bitbucket Innersource styles.",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "publisher": "joernberkefeld",
     "license": "MIT",
     "engines": {
         "vscode": "^1.19.0"
     },
-    "categories": ["Other"],
+    "categories": [
+        "Other"
+    ],
     "icon": "images/icon.png",
     "galleryBanner": {
         "color": "#eee",
         "theme": "light"
     },
-    "keywords": ["Markdown", "Bitbucket", "vscode", "vscode-extension", "innersource"],
+    "keywords": [
+        "Markdown",
+        "Bitbucket",
+        "vscode",
+        "vscode-extension",
+        "innersource"
+    ],
     "contributes": {
-        "markdown.previewStyles": ["./markdown-preview-innersource.css"]
+        "markdown.previewStyles": [
+            "./markdown-preview-innersource.css"
+        ]
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
