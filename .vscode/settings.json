@@ -1,2 +1,17 @@
 // Place your settings in this file to overwrite default and user settings.
-{}
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.markdownlint": true
+    },
+    "editor.formatOnSave": true,
+    "files.eol": "\n",
+    "javascript.implicitProjectConfig.checkJs": true,
+    "javascript.validate.enable": false,
+    "markdown.extension.italic.indicator": "_",
+    "markdown.extension.list.indentationSize": "adaptive",
+    "markdown.extension.tableFormatter.enabled": false,
+    "markdown.extension.toc.levels": "2..6",
+    "markdown.extension.toc.orderedList": false,
+    "markdown.styles": ["./markdown-preview-innersource.css"]
+}

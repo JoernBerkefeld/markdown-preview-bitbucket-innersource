@@ -1,0 +1,255 @@
+/*
+ * @author: joern.berkefeld@gmail.com
+ * @hompage: https://github.com/JoernBerkefeld/markdown-preview-bitbucket-innersource
+ */
+
+/* Bitbucket-server base styles: */
+.vscode-body {
+    padding: 15px 20px;
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857142857143;
+    letter-spacing: -0.005em;
+    text-decoration-skip: ink;
+}
+
+.vscode-body code > div {
+    background: none;
+}
+
+.vscode-body table th,
+.vscode-body table td {
+    border: 1px solid #ddd !important;
+}
+
+.vscode-body.showEditorSelection .code-active-line:before {
+    border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-body.showEditorSelection .code-line:hover:before {
+    border-left: 3px solid rgba(0, 0, 0, 0.4);
+}
+
+.vscode-body.showEditorSelection .code-line .code-line:hover:before {
+    border-left: none;
+}
+
+body {
+    background-color: #ffffff;
+}
+body * {
+    color: #172b4d;
+    font-size: 14px;
+}
+code {
+    background-clip: padding-box;
+    border-radius: 3px;
+    border: 1px solid #dfe1e6;
+    background-color: #f4f5f7;
+    display: inline-block;
+    margin: 0 2px -1px;
+    padding: 0px 3px;
+    text-decoration: inherit;
+    vertical-align: baseline;
+    font-family: monospace;
+}
+pre {
+    display: block;
+    padding: 0 !important;
+    border: 0 !important;
+    background-color: transparent !important;
+}
+pre > code {
+    white-space: pre;
+    display: block;
+    line-height: 18px;
+    overflow: auto;
+    padding: 6px 10px;
+    margin: 0;
+}
+pre > code,
+pre > code * {
+    font-size: 12px;
+}
+
+blockquote {
+    border-left: 1px solid #dfe1e6;
+    color: #707070;
+    margin: 10px 0 20px 19px;
+    padding: 10px 20px !important;
+    background-color: #ffffff;
+    background: #ffffff;
+}
+blockquote > em,
+blockquote > p {
+    color: #707070;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+h5,
+section h4,
+section section h3,
+section section section h2,
+section section section section h1 {
+    text-transform: none !important;
+    color: #172b4d !important;
+}
+
+h1,
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: 0;
+    text-transform: none;
+    margin: 10px 0 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+a {
+    color: #eb9521 !important;
+}
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ***************************** */
+/* HighlightJS */
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #333;
+    background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+    color: #696969;
+    font-style: normal;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+    color: #815b3a;
+    font-weight: 400;
+}
+
+.hljs-number {
+    color: #127b27;
+}
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+    color: #c03e32;
+}
+
+.hljs-string,
+.hljs-doctag {
+    color: #c03e32;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+    color: #336ea9;
+    font-weight: normal;
+}
+
+.hljs-subst {
+    font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+    color: #458;
+    font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attr,
+.hljs-params,
+.hljs-attribute {
+    color: #336ea9;
+    font-weight: normal;
+}
+.hljs-function {
+    color: #444;
+}
+
+.hljs-regexp,
+.hljs-link {
+    color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+    color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+    color: #0086b3;
+}
+
+.hljs-meta {
+    color: #999;
+    font-weight: bold;
+}
+
+.hljs-deletion {
+    background: #fdd;
+}
+
+.hljs-addition {
+    background: #dfd;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: bold;
+}

@@ -1,46 +1,44 @@
 {
-  "name": "markdown-preview-bitbucket",
-  "displayName": "Markdown Preview with Bitbucket Styles",
-  "description": "Replaces the Markdown preview with Bitbucket styles.",
-  "version": "1.0.0",
-  "publisher": "hbrok",
-  "license": "MIT",
-  "engines": {
-    "vscode": "^1.19.0"
-  },
-  "categories": ["Other"],
-  "icon": "images/icon.png",
-  "galleryBanner": {
-    "color": "#eee",
-    "theme": "light"
-  },
-  "keywords": ["Markdown", "Bitbucket"],
-  "activationEvents": ["onLanguage:markdown"],
-  "main": "./extension",
-  "contributes": {
-    "markdown.previewStyles": ["./base.css", "./bitbucket-markdown.css"],
-    "markdown.markdownItPlugins": true
-  },
-  "scripts": {
-    "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "node ./node_modules/vscode/bin/test"
-  },
-  "devDependencies": {
-    "vscode": "^1.1.6",
-    "eslint": "^4.6.1",
-    "@types/node": "^7.0.43",
-    "@types/mocha": "^2.2.42"
-  },
-  "dependencies": {
-    "markdown-it-anchor": "^4.0.0",
-    "markdown-it-table-of-contents": "^0.3.3"
-  },
-  "bugs": {
-    "url": "https://github.com/hbrok/markdown-preview-bitbucket/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hbrok/markdown-preview-bitbucket.git",
-    "homepage": "https://github.com/hbrok/markdown-preview-bitbucket"
-  }
+    "name": "markdown-preview-bitbucket-innersource",
+    "displayName": "Markdown Preview with Bitbucket Innersource Styles",
+    "description": "Replaces the Markdown preview with Bitbucket Innersource styles.",
+    "version": "2.0.0",
+    "publisher": "joernberkefeld",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": ["Other"],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#eee",
+        "theme": "light"
+    },
+    "keywords": ["Markdown", "Bitbucket", "vscode", "vscode-extension", "innersource"],
+    "activationEvents": ["onLanguage:markdown"],
+    "main": "./extension",
+    "contributes": {
+        "markdown.previewStyles": ["./markdown-preview-innersource.css"],
+        "markdown.markdownItPlugins": true
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test",
+        "upgrade": "npm-check --update"
+    },
+    "devDependencies": {
+        "@types/mocha": "^7.0.2",
+        "@types/node": "^14.0.13",
+        "eslint": "^7.3.0",
+        "npm-check": "^5.9.2",
+        "vscode": "^1.1.37"
+    },
+    "bugs": {
+        "url": "https://github.com/JoernBerkefeld/markdown-preview-bitbucket-innersource/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JoernBerkefeld/markdown-preview-bitbucket-innersource.git",
+        "homepage": "https://github.com/JoernBerkefeld/markdown-preview-bitbucket-innersource"
+    }
 }

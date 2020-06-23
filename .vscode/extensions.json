@@ -1,7 +1,20 @@
 {
-	// See https://go.microsoft.com/fwlink/?LinkId=733558
-	// for the documentation about the extensions.json format
-	"recommendations": [
-		"dbaeumer.vscode-eslint"
-	]
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the extensions.json format
+    "recommendations": [
+        // collaboration
+        "gruntfuggly.todo-tree",
+        "aaron-bond.better-comments",
+
+        // Linters
+        "dbaeumer.vscode-eslint",
+
+        // Formatting & colors
+        "editorconfig.editorconfig",
+        "esbenp.prettier-vscode",
+
+        // Markdown / Readme.md
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint"
+    ]
 }

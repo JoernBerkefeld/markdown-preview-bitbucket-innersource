@@ -9,7 +9,30 @@
 
 - Preview your Markdown files with innersource styles for Bitbucket-server independent of your VSCode theme
 
-![Markdown Preview with Bitbucket Styles](images/preview.png)
+- Code blocks
+
+```json
+{
+  "testStr": "string",
+  "myArr": [
+    {
+      "name": "Test"
+    }
+  ]
+}
+```
+
+```javascript
+var a = 1;
+let b = '2';
+const c = true;
+function fn(param) {
+  // a comment
+  return null;
+}
+```
+
+- Inline `code` display.
 
 ## Release Notes
 
