@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.0.4
+
+- fixed code block base color
+
 ## 2.0.3
 
 - fixed this Changelog.md
