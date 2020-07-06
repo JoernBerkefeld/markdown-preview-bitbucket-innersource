@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.0.3
+
+- fixed this Changelog.md
+
 ## 2.0.2
 
 - fixed `<hr>` styles
