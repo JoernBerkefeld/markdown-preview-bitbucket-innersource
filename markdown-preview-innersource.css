@@ -44,12 +44,11 @@
 }
 body {
     background-color: #ffffff;
-}
-body * {
     color: #172b4d;
     font-size: 14px;
 }
 code {
+    color: #172b4d;
     background-clip: padding-box;
     border-radius: 3px;
     border: 1px solid #dfe1e6;
