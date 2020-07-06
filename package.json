@@ -2,7 +2,7 @@
     "name": "markdown-preview-bitbucket-innersource",
     "displayName": "Markdown Preview with Bitbucket Innersource Styles",
     "description": "Replaces the Markdown preview with Bitbucket Innersource styles.",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "publisher": "joernberkefeld",
     "license": "MIT",
     "engines": {
