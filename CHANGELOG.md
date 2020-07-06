@@ -1,5 +1,14 @@
 # Change Log
 
+## 2.0.2
+
+- fixed `<hr>` styles
+- fixed `<a>` styles inside of `<h*>`
+
+## 2.0.1
+
+- streamlined inner workings to increase performance
+
 ## 2.0.0
 
 - adapted initial version for ACN's innersource

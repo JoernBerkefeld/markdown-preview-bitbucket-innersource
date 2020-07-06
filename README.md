@@ -2,8 +2,6 @@
 
 - [Features](#features)
 - [Release Notes](#release-notes)
-  - [2.0.0](#200)
-  - [1.0.0](#100)
 
 ## Features
 
@@ -13,10 +11,4 @@
 
 ## Release Notes
 
-### 2.0.0
-
-- adapted initial version for innersource systems based on Bitbucket-server
-
-### 1.0.0
-
-Initial release
+View [Changelog](CHANGELOG.md) for full details.
