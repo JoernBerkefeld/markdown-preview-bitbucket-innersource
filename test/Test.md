@@ -2,6 +2,10 @@
 
 - [Features](#features)
 - [Release Notes](#release-notes)
+  - [2.0.2 test](#202-test)
+    - [h4](#h4)
+      - [h5](#h5)
+        - [h6](#h6)
   - [2.0.0](#200)
   - [1.0.0](#100)
 
@@ -35,6 +39,16 @@ function fn(param) {
 - Inline `code` display.
 
 ## Release Notes
+
+---
+
+### [2.0.2](https://google.com) test
+
+#### h4
+
+##### h5
+
+###### h6
 
 ### 2.0.0
 
